@@ -1,19 +1,19 @@
-# Food Delivery – Real-Time Tracking App
+## 🍔 FoodDeliveryApp – Live Tracking Food Delivery
 
-## 🧑‍💼 Freelance Project
+> A feature-rich food delivery app with real-time order tracking, integrated payments, and restaurant listings.
 
-## 🔧 Tech Stack
-- Kotlin, Jetpack Compose, Google Maps API
-- Firebase Firestore, Retrofit, MVVM
+### 🔧 Tech Stack
+- Kotlin, Clean Architecture
+- Firebase Firestore, Google Maps API
+- Retrofit, Room, Jetpack Navigation
 
-## ✨ Features
-- Live location tracking for delivery partners
-- Customer-side order status updates
-- Push notifications for order events
-- Seamless, animated UI (Material You design)
+### 🌟 Features
+- Restaurant menu & cart flow
+- Order status tracking on map
+- Payment gateway integration
+- Reorder history & feedback
 
-## 📈 Impact
-- Reduced cold start by 30%
-- Achieved 98% crash-free sessions
-
-🔒 *This is a showcase only. Code is not available publicly.*
+### 👨‍💻 Author
+**Nishant Modi**  
+📫 [nishantmodimaster@gmail.com](mailto:nishantmodimaster@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/nishantmodi92)
