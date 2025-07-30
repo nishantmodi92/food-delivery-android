@@ -1,59 +1,28 @@
-# 🍔 FoodDeliveryApp
+# 🍕 FoodDeliveryApp
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat&logo=android&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Google Maps](https://img.shields.io/badge/Google_Maps-34A853?style=flat&logo=googlemaps&logoColor=white)
-![Retrofit](https://img.shields.io/badge/Retrofit-009688?style=flat)
-![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-blueviolet?style=flat)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Retrofit](https://img.shields.io/badge/Retrofit-REST--API-orange?style=for-the-badge)
+![Clean Architecture](https://img.shields.io/badge/Clean--Architecture-blue?style=for-the-badge)
+![Live Tracking](https://img.shields.io/badge/Live--Tracking-Google_Maps-green?style=for-the-badge)
 
-## 🛵 Food Delivery App with Live Order Tracking & In-App Payments
 
-**FoodDeliveryApp** is a modern and scalable Android application that simulates the complete experience of a food delivery platform. From browsing restaurants and dishes to real-time delivery tracking and secure payments, it offers a rich user interface built with Jetpack Compose and robust architecture using Clean Architecture principles.
+A full-stack food delivery app with live tracking and in-app payments. Designed for performance and visual elegance using Material You.
 
----
-
-## ✨ Features
-
-- 📍 Real-time location tracking with Google Maps
-- 🛒 Browse restaurants, add to cart, manage orders
-- 💳 In-app payment integration (mocked)
-- 🎨 Modern UI with Material Design 3 & Compose animations
-- 🔥 Cold start time reduced by 30% with optimized architecture
-- 🧱 Clean MVVM architecture with modular layers
-- 📱 Maintained 98% crash-free rate in testing
-
----
+## 🚀 Features
+- 📍 Real-time order tracking with Google Maps API
+- 💳 In-app payments and cart flow
+- ⚡ Optimized performance (30% faster cold start, 98% crash-free sessions)
+- 🎨 Smooth Material You animations and UI transitions
 
 ## 🧰 Tech Stack
+- **Language**: Kotlin
+- **Architecture**: Clean Architecture, MVVM
+- **Backend**: Firebase, Retrofit
+- **Maps**: Google Maps SDK
 
-- **Language:** Kotlin
-- **UI:** Jetpack Compose, Material Design 3, MotionLayout
-- **Architecture:** MVVM, Clean Architecture
-- **Backend & Auth:** Firebase Firestore, Firebase Auth
-- **Networking:** Retrofit, OkHttp
-- **Maps & Location:** Google Maps SDK, FusedLocationProvider
-- **State Management:** ViewModel, LiveData, Flows
-- **Storage:** DataStore, Shared Preferences
+## 📦 Architecture
+Clean architecture with domain/data layers and separation of concerns for scalability.
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome and appreciated!  
-If you have suggestions or want to enhance features, feel free to open an issue or pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 📬 Contact
-
-**Nishant Modi**  
-📧 [nishantmodimaster@gmail.com](mailto:nishantmodimaster@gmail.com)  
-🔗 [LinkedIn Profile](https://linkedin.com/in/nishantmodi92)
-
+## 🔗 Repository
+[👉 GitHub – FoodDeliveryApp](https://github.com/nishantmodi92/FoodDeliveryApp)
