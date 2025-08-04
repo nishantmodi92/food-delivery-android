@@ -1,28 +1,41 @@
-# 🍕 FoodDeliveryApp
+# 🍕 FoodDeliveryApp – Real-Time Food Ordering
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Retrofit](https://img.shields.io/badge/Retrofit-REST--API-orange?style=for-the-badge)
-![Clean Architecture](https://img.shields.io/badge/Clean--Architecture-blue?style=for-the-badge)
-![Live Tracking](https://img.shields.io/badge/Live--Tracking-Google_Maps-green?style=for-the-badge)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-UI-orange)
+![Crash-Free](https://img.shields.io/badge/Crash--Free-98%25-brightgreen)
+![Cold Start](https://img.shields.io/badge/Cold_Start_-30%25-lightgrey)
 
+> A complete food delivery platform with live order tracking, payment gateway, maps integration, and a buttery-smooth UI.
 
-A full-stack food delivery app with live tracking and in-app payments. Designed for performance and visual elegance using Material You.
+---
 
-## 🚀 Features
-- 📍 Real-time order tracking with Google Maps API
-- 💳 In-app payments and cart flow
-- ⚡ Optimized performance (30% faster cold start, 98% crash-free sessions)
-- 🎨 Smooth Material You animations and UI transitions
+## 🍽️ Features
 
-## 🧰 Tech Stack
-- **Language**: Kotlin
-- **Architecture**: Clean Architecture, MVVM
-- **Backend**: Firebase, Retrofit
-- **Maps**: Google Maps SDK
+- 📍 Real-time location tracking (Google Maps API)
+- 🛒 Cart, checkout, and order status flow
+- 💳 In-app payments (UPI, GPay, Cards)
+- 🔔 Smart push notifications (status updates)
+- 🌗 Material You dark mode UI
 
-## 📦 Architecture
-Clean architecture with domain/data layers and separation of concerns for scalability.
+---
 
-## 🔗 Repository
-[👉 GitHub – FoodDeliveryApp](https://github.com/nishantmodi92/FoodDeliveryApp)
+## ⚙️ Tech Stack
+
+- Kotlin + Jetpack Compose
+- Firebase (Auth, Firestore, FCM)
+- Retrofit, Clean Architecture
+- Google Maps API
+
+---
+
+## 📊 Key Metrics
+
+- ⚡ 30% faster app startup time
+- 📈 35% retention boost via personalized flow
+- 🧪 98% crash-free in live release
+
+---
+
+## 🔗 Links
+
+- [Github Repo](https://github.com/nishantmodi92/food-delivery-android)
+
