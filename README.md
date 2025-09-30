@@ -1,83 +1,62 @@
-# 🍕 FoodDeliveryApp – Next-Gen Real-Time Food Ordering Platform
+🍕 FoodDeliveryApp – Next-Gen Real-Time Food Ordering Platform
 
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-UI-orange)
-![Crash-Free](https://img.shields.io/badge/Crash--Free-98%25-brightgreen)
-![Cold Start](https://img.shields.io/badge/Cold_Start_-30%25-lightgrey)
 
-> A modern, scalable food delivery Android app with real-time order tracking, seamless payments, AI-powered recommendations, and a buttery-smooth UI.
+🚀 A modern, scalable, full-stack Android food delivery app with real-time tracking, in-app payments, offline-first design, and AI-powered recommendations.
 
----
+✨ Core Highlights
 
-## 🍽️ Features
+📍 Live GPS Tracking – Real-time delivery updates powered by Google Maps + Mapbox.
 
- 📍 Live GPS-based order tracking with Google Maps & Mapbox hybrid for high accuracy.
+🛒 Dynamic Cart & Checkout – Multi-restaurant, coupons, and smart pricing logic.
 
-🛒 Dynamic Cart & Checkout Flow with multi-restaurant support and discount integration.
+💳 Seamless Payments – Integrated UPI, Google Pay, Stripe, Razorpay for global scale.
 
-💳 Secure In-App Payments: UPI, GPay, Cards, Wallets, and Stripe integration for global scalability.
+🔔 Smart Notifications – FCM push alerts for order status, offers & reminders.
 
-🔔 Smart Push Notifications (Firebase Cloud Messaging) for order updates & promotions.
+🌗 Material You UI – Dark/Light mode with dynamic theming & smooth Compose animations.
 
-🌗 Material You Dark & Light Mode with dynamic theming.
+📦 Offline Cart Sync – Works seamlessly offline, auto-syncs on reconnect.
 
-📦 Offline Cart Sync: Cart persists offline, auto-syncs on connectivity.
+🤖 AI Menu Suggestions – Personalized recommendations using Firebase ML + history.
 
-🤖 AI-Powered Recommendations: Personalized menu suggestions using Firebase ML & user history.
+🔍 Instant Filters & Search – Cuisine, ratings, price-range, & delivery time filters.
 
-🚀 Instant Search & Filters: Smart category, cuisine, and rating filters.
+📊 Analytics Dashboard – Track retention, top-selling dishes, and order trends.
 
-📈 Analytics Dashboard: Firebase Analytics to track retention, popular items, and order trends.
-
----
-
-## ⚙️ Tech Stack
+⚙️ Tech Stack
 
 Language & UI: Kotlin + Jetpack Compose + Material You
-
 Architecture: MVVM + Clean Architecture + Repository Pattern
-
 Networking: Retrofit + OkHttp + Coroutines + Flow
-
-Database: Room (local caching) + Firestore (real-time cloud DB)
-
-Notifications: Firebase Cloud Messaging (FCM)
-
-Payments: UPI, Google Pay, Stripe SDK, Razorpay SDK
-
+Database: Room (local cache) + Firestore (real-time DB)
 Maps & Location: Google Maps API + Mapbox + FusedLocationProvider
+Payments: UPI, Google Pay, Stripe SDK, Razorpay SDK
+Libraries: Coil (images), Lottie (animations), Navigation Compose, Hilt (DI), Paging3
 
-Third-Party Libraries: Coil (image loading), Lottie (animations), Navigation Compose, Hilt (DI), Paging3
+🏗 Architecture Flow
+Presentation: Jetpack Compose + ViewModels (StateFlow)
+Domain: UseCases (business logic + AI personalization)
+Data: Repository → Firestore | Room | Retrofit
+DI: Hilt | Coroutines + Flow
 
----
 
-## 🏗 Architecture Overview
-Presentation Layer: Jetpack Compose UI + ViewModels (StateFlow)
-Domain Layer: UseCases (Business logic, AI recommendations)
-Data Layer: Repository (Firestore, Room, Retrofit API)
-Dependency Injection: Hilt
-Network: Retrofit + OkHttp + Coroutines + Flow
+✅ Dynamic Feature Modules (Restaurants, Cart, Profile)
+✅ Offline-first approach with local caching & Firestore sync
+✅ Reactive Compose UI for buttery animations
 
-Highlights:
+📊 Key Results & Impact
 
-Fully modular with Dynamic Feature Modules for restaurants, cart, and profile.
+🚀 30% faster cold start with modular architecture & lazy loading.
 
-Offline-first approach with Room caching + Firestore sync.
+📈 35% higher user retention via AI-driven recommendations.
 
-Jetpack Compose for smooth animations and reactive UI.
+🧪 98% crash-free sessions, optimized for budget devices.
 
-## ⚡ Key Metrics & Impact
+🕒 99.9% uptime, real-time tracking with ultra-low API latency.
 
-🚀 30% faster app cold start due to modular architecture and lazy loading.
+🔄 99.7% offline cart sync success rate.
 
-📈 35% higher user retention through personalized recommendations and dynamic content.
-
-🧪 98% crash-free sessions, optimized for edge devices.
-
-🕒 99.9% uptime, reliable live tracking with minimal API latency.
-
-🔄 Offline cart sync success rate: 99.7%.
-
-## 🛠 Setup & Installation
+🛠 Setup & Installation
 
 1️⃣ Prerequisites
 
@@ -88,29 +67,31 @@ JDK 17+
 Firebase Project (Auth, Firestore, FCM, Analytics)
 
 Google Maps API Key
+
 2️⃣ Steps
 
-Clone the repo
+# Clone repo
 git clone https://github.com/nishantmodi92/food-delivery-android.git
 
-2. Open in Android Studio → Sync Gradle.
 
-3. Configure google-services.json for Firebase.
+Open in Android Studio → Sync Gradle
 
-4. Add Maps API key in local.properties
+Add google-services.json (Firebase config)
 
-5. Build & Run.
-3️⃣ Optional 3rd Party Integrations
+Add MAPS_API_KEY in local.properties
 
-Stripe: Add stripe_publishable_key in local.properties.
+Build & Run 🚀
 
-Razorpay: Configure keys in PaymentManager.
+3️⃣ Optional Integrations
 
-Analytics: Enable Firebase Analytics events for custom tracking.
+🔑 Stripe → stripe_publishable_key in local.properties
 
+🔑 Razorpay → Configure in PaymentManager
 
-## 🔗 Links
-Github Repo
+📊 Firebase Analytics → Enable custom event tracking
 
+🔗 Links
 
+GitHub Repo: FoodDeliveryApp
 
+Portfolio: nishantmodi92.github.io
